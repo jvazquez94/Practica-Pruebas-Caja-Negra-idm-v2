@@ -2,8 +2,19 @@
 Práctica prueba caja negra en pareja (la hago solo)
 
 1)Bisiestos
+  Para este caso al ser primero y muy sencillo desarrolle el SUT primero. Un número bisiesto tiene que ser divisible por 4 y por 100 o por 400 para que sea bisiesto.
+  Es por ello que con dos simples estructuras de control if se puede desarrollar el código.
+  Para los test he programado 4 casos sencillos de condiciones, uno un año bisiesto correcto para saber que funciona correctamente, luego otro incorrectom un caso frontera como es   el 0 y un número negativo que sería un valor invalido como año.
   
 2)Romanos
+Lo primero fue definir la clase RomanosTest para después implementar el SUT.
+Empezamos por definir varios test de los cuales fueron algunos más de los que se ha añadido al final.
+Debido al tiempo que me suponía desarrollar más código para mejorarlo, decidí implementar lo básico para la conversión a base 10 de los números Romanos.
+Es por ello, que hay 3 test, uno para identificar si el símbolo introducido es correcto, es decir, identifica si son letras romanas inexistentes. Otro para 
+distinguir si el String de entrada es null. Y el último test para distinguir si hay más de 3 símbolos seguidos  ya que eso es incorrecto.
+Por otro lado, el SUT me empezó a llevar más tiempo de lo normal debido a la cantidad de limitaciones que le habia asignado al test, dando lugar a múltiples
+fallos de compilación. Por ello reduje el test a condiciones básicas y a una conversión sin mucha complejidad asignando a cada letra romana un valor y guardandolo
+en el anterior para proceder a sumar  o restar.
 
 3)Embotelladora
 
