@@ -17,5 +17,7 @@ fallos de compilación. Por ello reduje el test a condiciones básicas y a una c
 en el anterior para proceder a sumar  o restar.
 
 3)Embotelladora
+Lo primero como dice en la práctica definimos las caracterizaciones de los test. Para este he definido 5. C1, C1.b, C2, C2.b y C3, los cuales están definidos dentro del codigo de java con comentarios. En resumen he definido caracterizaciones para cuando no haya botellas suficientes.
+Con respecto al SUT he implementado de forma básica el algoritmo para que te devuelva el número de botellas pequeñas usadas minimizando su uso, como dice en el enunciado; de forma que se tenga en cuenta primero las condiciones que llevan a error, para descartar posibles fallos a posteriori con estructuras de control.
 
 4)Blackfriday
