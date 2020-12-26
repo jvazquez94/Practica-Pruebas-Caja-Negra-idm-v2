@@ -21,3 +21,8 @@ Lo primero como dice en la práctica definimos las caracterizaciones de los test
 Con respecto al SUT he implementado de forma básica el algoritmo para que te devuelva el número de botellas pequeñas usadas minimizando su uso, como dice en el enunciado; de forma que se tenga en cuenta primero las condiciones que llevan a error, para descartar posibles fallos a posteriori con estructuras de control.
 
 4)Blackfriday
+Como hablamos en clase para este ejercicio hay que modificar el SUT para añadir el parametro de la fecha ya que es indispensable para aplicar el precio en el
+día en cuestión 29-11.
+Para este caso hemos desarrollado con normalidad todo excepto para el C1 que tenemos un caso excepcional, ya que si no es 29-11 no se aplica el descuento. Lo que he
+implementado para ello es usando la funcion compare() de java.lang.Double da 0 comparando el precio descontado si es black friday y el original son iguales, y -1 si por lo tanto son diferentes debido a que se ha aplicado el descuento porque estamos en ese día en cuestión. Esta es un solució que he encontrado para cuando no sea 29 de noviembre.
+Para el resto he procedido igual creando de hecho una funcion externa que me dice si la fecha es un día valido o mes valido jugando con las centenas y las decenas.
